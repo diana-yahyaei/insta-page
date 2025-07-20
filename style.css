@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.insta{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.photo{
+  
+width: 150px;
+height: 150px;
+border-radius: 73px;
+border-color: green;
+
+   /* @media screen {max-width: 20% and min-width 10%}
+    @media screen {max-height:20% and min-height: 10%;}*/
+    margin-left: 10px;
+    margin-top:10px ;
+}
+.follow{
+    
+    width: 70%;
+    display:flex;
+flex-wrap: wrap;
+
+    font-size: 20px;
+justify-content: center;
+    gap: 20px;
+
+  
+}
+header{
+    border-bottom :5px solid black;
+    height: 50px;
+    width: 100%;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;}
+
+/*footer::after{
+    content:"\1392";
+    color: red;
+    font-weight: bold;
+    font-size: 100px;
+
+    https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fimage-vector%2Fleft-back-straight-arrow-icon-255118657&psig=AOvVaw3FiFr68Wwyzg2erMUcrCug&ust=1753110783689000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwivwbDd3MuOAxX8Qv4FHWZbNMIQjRx6BAgAEBk
+/*.posts{
+    justify-items: center;
+    text-align: center;
+
+footer{
+    display: flex;
+    flex-direction: row;
+    
+    background-color: aqua;
+}}*/
