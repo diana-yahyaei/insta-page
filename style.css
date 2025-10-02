@@ -222,5 +222,14 @@ a {
   background-size: cover;
 }
 p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen and (width<=400px) {
+  .ab img {
+    width: 30px;
+    height: 30px;
+  }
+  .ab {
+    align-items: center;
+  }
 }
